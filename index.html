@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공사 중 | 회사 홈페이지</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            width: 90%;
+        }
+
+        .icon {
+            font-size: 60px;
+            color: #ff9800; /* 주황색 강조 */
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.1em;
+            color: #666;
+        }
+
+        .progress-bar-container {
+            width: 100%;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            margin-top: 30px;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 20px;
+            width: 30%; /* 작업 진행률 예시 */
+            background-color: #4caf50; /* 녹색 진행색 */
+            text-align: center;
+            line-height: 20px;
+            color: white;
+            transition: width 0.5s ease;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="icon">&#9888;</span> <!-- 작업 중 아이콘 (느낌표 또는 기타 아이콘 사용 가능) -->
+        <h1>사이트 공사 중입니다.</h1>
+        <p>새롭고 멋진 모습으로 곧 찾아뵙겠습니다.</p>
+        
+        <div class="progress-bar-container">
+            <div class="progress-bar">
+                작업 진행 중... (30%)
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 회사명. 모든 권리 보유.</p>
+        </footer>
+    </div>
+</body>
+</html>
